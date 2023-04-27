@@ -5,6 +5,7 @@ import { CanceledError } from "axios";
 export interface GameProps {
   id: number;
   name: string;
+  background_image: string;
 }
 
 export interface FetchGamesResponseProps {
