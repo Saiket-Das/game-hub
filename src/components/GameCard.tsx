@@ -10,7 +10,7 @@ interface GameCardProps {
 
 const GameCard = ({ game }: GameCardProps) => {
   return (
-    <Card width="270px" borderRadius="10px" overflow="hidden">
+    <Card>
       <Image src={getCroppedImageUrl(game.background_image)} />
 
       <CardBody>
