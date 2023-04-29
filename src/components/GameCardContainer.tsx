@@ -8,7 +8,7 @@ interface Props {
 const GameCardContainer = ({ children }: Props) => {
   return (
     <Box>
-      <Card width="270px" borderRadius="10px" overflow="hidden">
+      <Card borderRadius="10px" overflow="hidden">
         {children}
       </Card>
     </Box>
