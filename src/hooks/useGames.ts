@@ -1,11 +1,6 @@
 import useData from "./useData";
 import { GenreProps } from "./useGenres";
-
-export interface PlatformProps {
-  id: number;
-  name: string;
-  slug: string;
-}
+import { PlatformProps } from "./usePlatforms";
 
 export interface GameProps {
   id: number;
