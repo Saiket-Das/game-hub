@@ -12,7 +12,7 @@ import { SiNintendo } from "react-icons/si";
 import { BsGlobe } from "react-icons/bs";
 
 import { HStack, Icon, Text } from "@chakra-ui/react";
-import { PlatformProps } from "../hooks/useGmaes";
+import { PlatformProps } from "../hooks/useGames";
 import { IconType } from "react-icons";
 
 interface Props {

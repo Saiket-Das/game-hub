@@ -15,8 +15,8 @@ export interface GameProps {
   metacritic: number;
 }
 
-const useGames = (selecredGenre: GenreProps | null) =>
-  useData<GameProps>("/games", { params: { genres: selecredGenre?.id } }, [
-    selecredGenre?.id,
+const useGames = (selectedGenre: GenreProps | null) =>
+  useData<GameProps>("/games", { params: { genres: selectedGenre?.id } }, [
+    selectedGenre?.id,
   ]);
 export default useGames;
