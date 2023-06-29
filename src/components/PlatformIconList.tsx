@@ -21,14 +21,13 @@ interface Props {
 
 const PlatformIconList = ({ platforms }: Props) => {
   const iconMap: { [key: string]: IconType } = {
-    // slug: playstation
     pc: FaWindows,
     playstation: FaPlaystation,
     xbox: FaXbox,
+    nintendo: SiNintendo,
     mac: FaApple,
     linux: FaLinux,
     android: FaAndroid,
-    nintendo: SiNintendo,
     ios: MdPhoneIphone,
     web: BsGlobe,
   };
